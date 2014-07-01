@@ -1,7 +1,7 @@
 <?php
   /*session_start();
     
-  fdsghkgs
+ 
   */
 
   include_once('library/Componente.php');
