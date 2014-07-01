@@ -1,0 +1,875 @@
+
+body {
+	margin: 0;
+	padding: 0;
+	text-align: left;
+	font: 12px Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: #061C37;
+	background: #EEEFE4;
+	background-image:url(images/background.png);
+	background-repeat:repeat-x;
+	background-color: #1C478E;
+}
+
+
+#container
+{
+	margin: 0 auto 0 auto;
+  display: block; 
+  height:auto;
+  position: relative; 
+  width: 1030px; /*960*/
+}
+
+
+#header
+{
+margin: 0 auto 0 auto;
+height:85px;
+width:1030px;	
+
+}
+
+#header #pemex{
+float: left;
+height: 85px;
+width:300px;
+background: url(../img/pemex.png) no-repeat;
+background-size: 300px 100px;
+background-position: 0% 100%;
+
+}
+
+#header #usuario{
+	float: left;
+
+width:430px;
+font-size: 12px;
+color: #FFFFFF;	
+font-weight: bold;
+line-height: 35px;
+}
+
+#header #usuario table tr th{
+	font-size: 16px;
+	font-weight: bold;
+	text-align: center;
+}
+
+#header #smt
+{
+float: right;
+height: 85px;
+width:300px;
+background: url(../img/LOGO2.png) no-repeat;
+background-size: 300px 50px;
+background-position: 100% 50%;
+}
+
+
+
+
+
+.off
+{
+color:#67A0F5;
+}
+
+
+#menu
+{
+	margin: 0 auto 0 auto;
+	padding-left: 40px;
+display:block;
+float:left;
+clear:both;
+width:870px;
+height:54px;
+float:left;
+clear:both;
+}
+
+#leftmenu
+{
+margin-top:5px;
+width:204px;
+float:left;
+}
+
+
+#leftmenu_main
+{
+padding-top: 10px;
+padding-bottom: 5px;
+margin-top: 10px;
+width:204px;
+height:auto;
+border-radius: 10px;
+background-color:#1C478E;
+}
+
+#leftmenu_main ul
+{
+	margin: 0 auto 0 auto;
+list-style: none;
+padding: 0px;
+width:204px;
+}
+
+
+#leftmenu_main h3
+{
+	margin: 0 auto 0 auto;
+	text-align: center;
+list-style: none;
+padding: 0px;
+width:204px;
+color:#FFFFFF;
+
+padding-bottom:14px;
+}
+
+#leftmenu_main ul li
+{
+	margin: 0 auto 0 auto;
+list-style: none;
+padding: 0px;
+width:204px;
+text-align:left;
+}
+
+#leftmenu_main ul li a, #leftmenu_main ul li a:visited
+{
+	display:block;
+list-style: none;
+width:190px;
+padding-left:12px;
+padding-top:4px;
+height:30px;
+text-align:left;
+background-image:url(images/leftmenu_link.png);
+background-repeat:repeat-x;
+margin-top:5px;
+color:#FFFFFF;
+text-decoration:none;
+font-size:15px;
+font-weight:bold;
+}
+
+#leftmenu_main ul li a:hover
+{
+color:#87BCF8;
+	
+	
+}
+#leftmenu_main ul li a:active
+{
+color:#000000;
+	
+	
+}
+
+
+
+
+#content
+{
+	margin: 0 auto 0 auto;
+display:block;
+float:left;
+width:750px;  /*689*/
+height:auto;
+padding-left:10px;
+padding-top:15px;
+padding-right:10px;
+padding-bottom:5px;
+}
+
+
+#footer
+{
+	clear: both;
+	margin: 0 auto 0 auto;
+	width:inherit;
+	height:auto;
+}
+
+#footer h3 a,#footer h3 a:visited
+{
+display:inline;
+text-align:center;
+font-size:12px;
+text-decoration:none;
+color:#7198E1;
+}
+
+
+#menu ul {
+	margin: 0 auto 0 auto;
+	list-style: none;
+	padding: 0px;
+	margin-left:auto;
+	width:960px;
+}
+
+#menu li {
+	list-style: none;
+	padding: 0px;	
+	display: inline; 
+	
+}
+
+#menu a {
+	float: left;
+	height: 36px;
+	display: block;
+	text-align: center;
+	text-decoration: none;
+	color: #ffffff;
+	font-weight: bold;
+	padding-top: 18px;
+	font-size: 15px;
+	padding-left:13px;
+	padding-right:13px;
+	
+}
+
+#menu a:hover{
+	color:#86AEF9;
+	background-image:url(images/linkbackground.jpg);
+	background-repeat:repeat-x;
+}
+
+#content p
+{
+	
+}
+
+
+html, body {
+
+}
+p {text-align: left;}
+
+.captura{
+	width: 100px;
+	margin-right: 5px;
+	margin-left: 5px;
+	margin-bottom: 5px;
+	margin-top: 5px;
+	border: 1px solid #0000FF;
+	border-radius: 4px;
+	box-shadow: 1px 1px 2px rgba(0,0,0,.7);
+	float:left;
+	background-color: #1C478E;
+}
+
+.captura a{
+	text-decoration: none;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+
+.captura a:hover{
+	text-decoration: none;
+	font-weight: bold;
+	color: #000000;
+}
+
+#ordenes_servicio .par{
+	background-color: #87CEFA;
+}
+
+#ordenes_servicio .impar{
+	background-color: #AFEEEE;
+}
+
+#field{
+	/*margin-bottom: 10px;*/
+	border-radius: 7px;
+	border: 1px solid #0B1B36;
+	color: #0B1B36;
+	font-weight: bold;
+}
+
+#field select{
+	border-radius: 4px;
+	border: 1px solid #0B1B36;
+	width: 200px;
+}
+
+#content_generador{
+	clear: both;
+	width: 1000px;
+	border: 5px solid #1C86EE;
+	border-radius: 10px;
+	margin-top: 80px;
+	background-color: #FFFFFF;
+	padding-left: 5px;
+	padding-right: 10px;
+	padding-bottom: 15px;
+	padding-top: 15px;
+
+}
+
+#elemento{
+	width: 689px;
+	padding: 10px 10px 10px 10px;
+	background-color: #FFFFFF;
+	border: 5px solid #1C86EE;
+	border-radius: 10px;
+}
+
+
+
+textarea{
+	width: 205px;
+	height: 75px;
+	font-family: arial, Helvetica, sans-serif;
+	font-size: 12px;
+	resize:none;
+}
+
+
+
+
+
+
+
+#content_generador #elemento table{
+	font-size: 10px;
+}
+
+#content_generador fieldset{
+	width: 800px;
+	border: 1px solid #06101F;
+	border-radius: 8px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+
+
+
+#content_main_index{
+	height: 250px;
+}
+
+#content_main_index #field_index{
+	width: 400px;
+	height: 100px;
+	border: 5px solid #1C86EE;
+	border-radius: 8px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 80px;
+	color: #1C86EE;
+	font-size: 16px;
+	font-weight: bold;
+	-webkit-border-radius: 8px;
+	-ms-border-radius: 8px;
+}
+
+
+
+#content_main_index #field_index table{
+	margin-right: auto;
+	margin-left: auto;
+	text-align: right;
+	margin-top: 15px;
+}
+
+
+#content_main_index  input{
+	color: #1C86EE;
+	border: 1px solid #1C86EE;
+	border-radius: 3px;
+}
+
+input, textarea, select{
+	color: #1C86EE;
+	border: 1px solid #1C86EE;
+	border-radius: 3px;
+}
+
+
+
+
+
+
+
+
+
+
+#content_generador .fecha_inicial_g{
+	margin-bottom: 20px;
+	margin-top: 5px;
+}
+
+.comentarios_g{
+	resize:none;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:10px;
+}
+
+.rojo_g{
+	color: #FF0000 ;
+	border-color: #000000;
+}
+
+.verde_g{
+	color: 	#009900 ;
+	border-color: #000000;
+}
+
+.azul_g{
+	color: #0000FF ;
+	border-color: #0000FF;
+}
+
+.negro_g{
+	color: #000000;
+	border-color: #000000;
+}
+
+.mora_g{
+	color: #996600;
+}
+
+#generator{
+	max-height: 500px;
+	margin-top: 20px;
+	width: 1010px;
+	overflow-y:auto; 
+	box-shadow: 1px 1px 7px rgba(.5,0,0,.7);
+}
+
+#elemento_select fieldset{
+	margin-bottom: 20px;
+}
+
+.combo_rev{
+	width: 200px;
+
+}
+
+#tabla_cap{
+	width: 689px;
+	max-height: 500px;
+}
+
+#tabla_cap #ordenes_servicio{
+	width: 680px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#contenido{
+	width: 800px;
+	min-height: 500px;
+	background-color: #FFFFFF;
+	border: 5px solid #1C86EE;
+	border-radius: 8px;
+	overflow-y:auto;
+}
+
+#contenido #formulario{
+	float: left;
+	width: 325px;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+
+#contenido #formulario form fieldset{
+	width: 300px;
+	border-radius: 8px;
+}
+
+#contenido #formulario form table{
+	text-align: right;
+	width: 295px;
+}
+
+#contenido #formulario form table tr{
+	height: 30px;
+}
+
+#contenido #formulario form table input, select{
+	width: 200px;
+	padding-left: 5px;
+	
+}
+
+#contenido #tabla_captura{
+	border: 1px solid #06101F;
+	font-size: 10px;
+	width: 455px;
+	margin-top: 10px;
+	margin-right: 8px;
+	float: right;
+	max-height: 450px;
+	overflow-y: auto;
+}
+
+#contenido #tabla_captura table{
+	border-collapse: collapse;
+	border: 1px solid #1C478E;
+	width: 455px;
+}
+
+#contenido #tabla_captura table tr th{
+	background-color: #1C478E;
+	color: #FFFFFF;
+	text-align: center;
+}
+
+#contenido #tabla_captura table tr td{
+	text-align: left;
+	padding-left: 10px;
+	font-weight: bold;
+}
+
+
+
+
+/*  FORMULARIO DE ORDENES DE SERVICIO  */
+
+#contenido #formulario_o{
+	
+	width: 425px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+}
+
+
+#contenido #formulario_o form table{
+	text-align: right;
+	margin-right: auto;
+	margin-left: auto;
+	width: 400px;
+}
+
+#contenido #formulario_o form table tr{
+	height: 20px;
+}
+
+#contenido #formulario_o form table input, select{
+	width: 200px;
+	padding-left: 5px;
+}
+
+#contenido #formulario_o form table textarea{
+	width: 200px;
+	height: 75px;
+	font-family: arial, Helvetica, sans-serif;
+	font-size: 12px;
+	resize:none;
+}
+
+#contenido #encabezado_o{
+	margin-top: 30px;
+}
+
+#contenido #encabezado_o table{
+	border-collapse: collapse;
+	width: 700px;
+
+	margin-left: 10px;
+}
+
+#contenido #tabla_captura_o{
+	width: 720px;
+	margin-top: 0px;
+	margin-right: 8px;
+	margin-left: 10px;
+	clear: both;
+	max-height: 150px;
+	overflow-y: auto;
+	margin-bottom: 30px;
+}
+
+#contenido #tabla_captura_o table{
+	border-collapse: collapse;
+	width: 700px;
+	border: 1px solid #1C478E;
+	font-size: 11px;
+}
+
+#contenido #encabezado_o table tr th{
+	background-color: #1C478E;
+	color: #FFFFFF;
+}
+
+#contenido #tabla_captura_o table tr td{
+	width: 390px;
+	text-align: left;
+	
+	font-weight: bold;
+}
+
+.e_numero{
+	width:70px;
+	max-width: 70px;
+	min-width: 70px;
+}
+
+.e_ducto{
+	width: 100px;
+	max-width: 100px;
+	min-width: 100px;
+}
+
+.e_ubicacion{
+	width: 100px;
+	max-width: 100px;
+	min-width: 100px;
+}
+
+.e_sector{
+	width: 70px;
+	max-width: 70px;
+	min-width: 70px;
+}
+
+.e_fecha_inicio{
+	width: 100px;
+	max-width: 100px;
+	min-width: 100px;	
+}
+
+.e_fecha_fin{
+	width: 100px;
+	max-width: 100px;
+	min-width: 100px;	
+}
+
+
+
+/* TABLA USUARIOS */
+.u_usuario{
+	width: 70px;
+	max-width: 70px;
+	min-width: 70px;
+}
+
+.u_nombre{
+	width: 300px;
+	max-width: 300px;
+	min-width: 300px;
+}
+
+.u_compania{
+	width: 70px;
+	max-width: 70px;
+	min-width: 70px;
+}
+
+.u_perfil{
+	width: 100px;
+	max-width: 100px;
+	min-width: 100px;	
+}
+
+.u_estatus{
+	width: 100px;
+	max-width: 100px;
+	min-width: 100px;	
+}
+
+
+#tabla_ordenes{
+	width: 730px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+#tabla_ordenes #ordenes_servicio{
+	margin-right: auto;
+	margin-left: auto;
+	width: 730px;
+	border-collapse: collapse;
+}
+
+#tabla_ordenes #ordenes_servicio th{
+	background-color: #1C478E;
+	color: #FFFFFF;
+}
+
+#contratos{
+	width: 730px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 30px;
+}
+
+
+/* PAGINA PENDIENTES */
+
+#sectores_p{
+	width: 750px;
+	float: right;
+	min-height: 98px;
+	margin-top: 15px;
+	padding-top: 20px;
+	background-color: #FFFFFF;
+	border: 5px solid #1C86EE;
+	border-radius: 8px;
+}
+
+#sectores_p fieldset{
+	width: 700px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#tabla_pendientes{
+	width: 990px;
+	clear: both;
+	margin-top: 210px;
+	background-color: #FFFFFF;
+	border: 5px solid #1C86EE;
+	border-radius: 8px;
+	padding-left: 10px;
+	padding-top: 10px;
+	max-height: 550px;
+	overflow-y: auto;
+}
+
+
+#subpartida{
+	width: 400px;
+	overflow-x: auto;
+	margin: 0px;
+	padding: 0px;
+}
+
+#subpartida table{
+	width: 400px;
+	border-collapse: collapse;
+	
+}
+
+
+#error_login{
+	margin-top: 20px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: 7px;
+	background-color: #F2DEDE;
+	border: 2px solid #FF0000;
+	border-radius: 5px;
+	color: #FF0000;
+	box-shadow: 1px 1px 10px rgba(.5,0,0,.7);
+	height: 22px;
+	width: 500px;
+	font-weight: bold;
+}
+
+
+#print{
+	width: 600px;
+	margin-top: 30px;
+	border: 1px solid #06101F;
+	border-radius: 8px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#descarga{
+	width: 300px;
+	height: 30px;
+	padding-top: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	border: 1px solid #06101F;
+	border-radius: 5px;
+	box-shadow: 1px 1px 10px rgba(.5,0,0,.7);
+	text-align: center;
+	font-size: 16px;
+	color: #1C478E;
+	font-weight: bold;
+	display: block;
+}
+
+#descarga a:hover{
+	color: #FF0000;
+}
+
+#descarga a{
+	text-decoration: none;
+}
+
+.reporte_diario{
+	text-align: left;
+	width: 250px;
+	height: 20px;
+	margin-top: 5px;
+	margin-left: 50px;
+	border: 1px solid #06101F;
+	border-radius: 3px;
+	box-shadow: 1px 1px 10px rgba(.5,0,0,.7);
+}
+
+.reporte_diario a{
+	margin-left: 15px;
+	text-decoration: none;
+	font-weight: bold;
+	margin-top: 5px;
+}
+
+.reporte_diario a:hover{
+	color: #FF0000;
+}
+
+#contact-form div .contact img{
+	border: 0px;
+}
+
+#simbologia table tr td a{
+	text-decoration: none;
+	color: #000000;
+}
+
+#div_tabla_acumulados{
+	width: 960px;
+	margin-right: 20px;
+	margin-left: 20px;
+	margin-top: 10px;
+
+}
+
+#tabla_acumulados{
+	border: 2px solid #133061;
+	border-collapse: collapse;
+	line-height:25px;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+#tabla_acumulados tr th{
+	background-color: #B9C9FE;
+	color: #1C478E;
+}
+
+#tabla_acumulados tr .importe{
+	width: 70px;
+}
+
+#tabla_acumulados tr td{
+	color: #1C478E;
+
+}
+
+#tabla_acumulados tr:hover{
+	background-color: #D0DAFD;
+}
+
+#nombre_usuario{
+	text-align: left;
+}
+
