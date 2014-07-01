@@ -1,10 +1,7 @@
 <?php
   /*session_start();
     
-  
-  include_once('library/Usuario.php');
-  $componente = new Componente();
-  $usuario = new Usuario();
+  fdsghkgs
   */
 
   include_once('library/Componente.php');
